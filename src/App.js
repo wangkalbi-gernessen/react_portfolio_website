@@ -18,8 +18,8 @@ function App() {
           <Route path="/Contact" component={Contact} />
         </Switch> */}
         <Home />
-        <Career />
         <Projects />
+        <Career />
         <Contact />
       </Router>
     </div>
