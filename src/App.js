@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './Components/Navbar';
+import Home from './Components/Home';
 import Projects from './Components/Projects';
 import Career from './Components/Career';
 import Contact from './Components/Contact';
@@ -10,11 +11,16 @@ function App() {
     <div className="App">
       <Router>
         <Navbar/>
-        <Switch>
-          <Route path="/Projects" component={Projects} />
+        {/* <Switch>
+          <Home/>
           <Route path="/Career" component={Career} />
+          <Route path="/Projects" component={Projects} />
           <Route path="/Contact" component={Contact} />
-        </Switch>
+        </Switch> */}
+        <Home />
+        <Career />
+        <Projects />
+        <Contact />
       </Router>
     </div>
   );
