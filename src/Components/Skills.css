@@ -1,0 +1,35 @@
+* {box-sizing:border-box}
+
+.skills-content {
+  margin: 10px;
+}
+
+.chart {
+  margin: auto;
+  width: 50%;
+  background-color: #ddd;
+}
+
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.javascript {width: 80%; background-color: #04AA6D;} 
+.php {width: 60%; background-color: #2196F3;} 
+.java {width: 50%; background-color: #f44336;} 
+.python {width: 50%; background-color: #808080;} 
+.htmlcss {width: 50%; background-color: #808080;} 
