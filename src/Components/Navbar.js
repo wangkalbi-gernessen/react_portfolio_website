@@ -29,7 +29,7 @@ const Navbar = () => {
             <Link className={colorChange ? 'navbar colorChange' : 'navbar original'} activeClass="active" to='career' spy={true} smooth={true} offset={-70} duration={500}>CAREER</Link>
           </li>
           <li>
-            <Link className={colorChange ? 'navbar colorChange' : 'navbar original'} activeClass="active" to='contact' spy={true} smooth={true} offset={-70} duration={500}>CONTACT</Link>
+            <Link className={colorChange ? 'navbar colorChange' : 'navbar original'} activeClass="active" to='skills' spy={true} smooth={true} offset={-70} duration={500}>SKILLS</Link>
           </li>
         </ul>
       </nav>

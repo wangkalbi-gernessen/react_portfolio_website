@@ -1,0 +1,25 @@
+.footer {
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  margin-top: 150px;  
+  justify-content: flex-start;
+}
+
+.copyright {
+  width: 20%;
+  text-align: center;
+  margin: auto;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;   
+  width: 80%;
+}
+

@@ -7,8 +7,6 @@ class Career extends React.Component {
     return (
       <div className="career-content" id="career">
         <h1>Career</h1>
-        <p>slslslllllllllll</p>
-        <Skills />
       </div>   
     );
   }

@@ -2,17 +2,23 @@
 
 .skills-content {
   margin: 10px;
+  height: 100vh;
+  width: 100%;
 }
 
 .chart {
   margin: auto;
   width: 50%;
-  background-color: #ddd;
+  background-color: white;
+  padding: 20px;
+  height: 100%;
+  overflow: scroll;
 }
 
 .container {
   width: 100%; 
   background-color: #ddd; 
+  height: 10px;
 }
 
 h1 {
@@ -26,6 +32,8 @@ h1 {
   padding-top: 10px; 
   padding-bottom: 10px; 
   color: white; 
+  height: 1px;
+  line-height: 0;
 }
 
 .javascript {width: 80%; background-color: #04AA6D;} 

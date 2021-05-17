@@ -2,6 +2,7 @@ import React from "react";
 import './Home.css';
 import github from '../img/github.png';
 import email from '../img/email.png';
+import call from '../img/call.png';
 import facebook from '../img/facebook.png';
 import instagram from '../img/instagram.png';
 
@@ -18,6 +19,9 @@ class Home extends React.Component {
             </a>
             <a href="mailto: guizhou08chishui@gmail.com" target="_blank">
               <img src={email}/>
+            </a>
+            <a href="tel: 778-689-7760" target="_blank">
+              <img src={call}/>
             </a>
             <a href="https://www.facebook.com/kazunobu.someya" target="_blank">
               <img src={facebook}/>

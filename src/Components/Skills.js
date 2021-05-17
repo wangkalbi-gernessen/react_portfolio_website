@@ -2,39 +2,50 @@ import React from "react";
 import './Skills.css';
 import  javascript from '../img/javascript.png';
 import  php from '../img/php.png';
-
+import  java from '../img/java.png';
+import  python from '../img/python.png';
+import  html5 from '../img/html5.png';
+import  swift from '../img/swift.png';
 
 class Skills extends React.Component {
   render() {
     return (
-      <div className="skills-content">
+      <div className="skills-content" id="skills">
         <h1>Skills</h1>
         <div className="chart">
-          <p>
-            <img src={javascript} />
-          </p>
+          <label for="javascript">
+            <img src={javascript} width="30" height="30" />
+          </label>
           <div class="container">
-            <div class="skills javascript">80%</div>
+            <p class="skills javascript">80%</p>
           </div>
           <p>
-            <img src={php} />
+            <img src={php} width="30" height="30" />
           </p>
           <div class="container">
             <div class="skills php">60%</div>
           </div>
-          <p>Java</p>
+          <p>
+            <img src={java} width="30" height="30" />
+          </p>
           <div class="container">
             <div class="skills java">50%</div>
           </div>
-          <p>Python</p>
+          <p>
+            <img src={python} width="30" height="30" />
+          </p>
           <div class="container">
             <div class="skills python">50%</div>
           </div>
-        <p>HTML &#38; CSS</p>
+          <p>
+            <img src={html5} width="30" height="30" />
+          </p>
           <div class="container">
             <div class="skills htmlcss">90%</div>
           </div>
-          <p>Swift</p>
+          <p>
+            <img src={swift} width="30" height="30" />
+          </p>
           <div class="container">
             <div class="skills swift">60%</div>
           </div>
